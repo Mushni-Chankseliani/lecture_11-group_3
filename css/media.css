@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .br {
+        display: none;
+    }
+
+    form {
+        flex-direction: column;
+        height: auto;
+    }
+
+    textarea {
+        max-width: none;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .inputs-wrapper {
+        max-width: none;
+    }
+
+    input {
+        margin-bottom: 20px;
+    }
+}
